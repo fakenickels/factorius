@@ -31,7 +31,7 @@
 
 ## Ruby
 ```ruby
-	// Non-recursive
+	# Non-recursive
 	def factorial( number )
 		final = 1
 
@@ -42,7 +42,7 @@
 		final
 	end
 
-	// Recursive
+	# Recursive
 	def factorial( number )
 		number == 1 ? 1 : number * factorial( number - 1 )
 	end
